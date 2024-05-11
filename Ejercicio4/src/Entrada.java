@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Entrada {
     public static void main(String[] args) {
-        int numAleatorio = (int) (Math.random()*5000);
+        int numAleatorio = (int) (Math.random()*(5000)+1000);
         JOptionPane.showMessageDialog(null,numAleatorio);
         int intentos = 4;
 
