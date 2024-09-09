@@ -37,8 +37,6 @@ public class Entrada {
                     min = nota;
                 }
             }
-
-
             if (nota<5){
                  suspensos++;
              }
